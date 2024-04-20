@@ -1,19 +1,21 @@
-import Collections from "@/components/Collections";
-import ProductList from "@/components/ProductList";
+import Hero from "@/components/Hero";
+import Service from "@/components/Services";
+import Offers from "@/components/Feature";
+import FAQ from "@/components/FAQ";
+import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
-
-import Image from "next/image";
 
 export default function Home() {
   return (
     <>
-      <Image src="/banner.png" alt="banner" width={2000} height={1000} className="w-screen" />
-      <Collections />
-      <ProductList />
+      <Hero />
+      <Service />
+      <Offers />
+      <FAQ />
+      <Contact />
       <Footer />
     </>
   );
 }
 
 export const dynamic = "force-dynamic";
-
