@@ -1,5 +1,6 @@
 import Collections from "@/components/Collections";
 import ProductList from "@/components/ProductList";
+import Footer from "@/components/Footer";
 
 import Image from "next/image";
 
