@@ -1,7 +1,7 @@
 import ProductList from "@/components/ProductList";
 import React from "react";
 
-export default function Products  {
+export default function Products()  {
   return (
     <div className="pt-10">
       <ProductList />
