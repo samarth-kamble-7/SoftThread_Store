@@ -1,7 +1,7 @@
 import ProductList from "@/components/ProductList";
 import React from "react";
 
-const Products = () => {
+export default function Products  {
   return (
     <div className="pt-10">
       <ProductList />
@@ -9,4 +9,4 @@ const Products = () => {
   );
 };
 
-export default Products;
+export const dynamic = "force-dynamic";
