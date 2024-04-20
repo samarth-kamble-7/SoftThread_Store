@@ -1,7 +1,7 @@
 import Collections from "@/components/Collections";
 import React from "react";
 
-const CollectionPage = () => {
+export default function CollectionPage {
   return (
     <div className="pt-10">
       <Collections />
@@ -9,4 +9,4 @@ const CollectionPage = () => {
   );
 };
 
-export default CollectionPage;
+export const dynamic = "force-dynamic";
